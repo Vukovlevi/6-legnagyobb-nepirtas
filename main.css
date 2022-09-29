@@ -7,7 +7,11 @@
     margin: 0;
     padding: 0;
 }
-
+header {
+    position: absolute;
+    top: 0;
+    height: 5rem;
+}
 nav {
     display: flex;
     width: 100%;
@@ -46,6 +50,9 @@ nav a {
 .nav-link:hover::after {
     transform: scale(1);
 }
+main {
+    margin-top: 5rem;
+}
 .life {
     padding: 1rem;
     text-align: center;
@@ -53,4 +60,17 @@ nav a {
 .main-text {
     width: 40vw;
     font-size: 1.5rem;
+}
+.img {
+    width: 25vw;
+}
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+footer ul {
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
 }
