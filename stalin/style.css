@@ -1,0 +1,3 @@
+.img {
+    width: clamp(20rem, 35vw, 900px);
+}
