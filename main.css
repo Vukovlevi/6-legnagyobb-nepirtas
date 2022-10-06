@@ -1,6 +1,13 @@
 :root {
   --nav-link-hover-clr: orange;
 }
+a {
+  transition: all 250ms ease;
+}
+.github-link:focus,
+.github-link:hover {
+  color: blue !important;
+}
 
 *,
 *::before,
