@@ -114,6 +114,8 @@ footer ul {
 @media (max-width: 576px) {
   header {
     min-height: fit-content;
+    background: transparent;
+    opacity: 1;
   }
   .nav-toggle {
     display: inline-block;
