@@ -1,3 +1,9 @@
-.img {
-    width: clamp(20rem, 35vw, 900px);
+.carousel-img {
+    width: 80vw;
+    z-index: -1;
+}
+@media (max-width: 768px) {
+    .carousel {
+        display: none !important;
+    }
 }
