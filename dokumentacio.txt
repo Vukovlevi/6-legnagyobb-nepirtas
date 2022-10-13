@@ -4,3 +4,5 @@
 2022.10.06
 	Nagyjábol befejeztük a saját készítésű templateünket.
 	Belekezdtünk az aloldalak elkészítésébe.
+2022.10.13 - Szabó-Vukov Levente:
+	beállítottam egy carouselt a sztálin aloldalhoz
