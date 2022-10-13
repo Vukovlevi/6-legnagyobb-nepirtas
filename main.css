@@ -152,6 +152,9 @@ footer ul {
   .nav-link:focus::after {
     display: none;
   }
+  .kovetkezmeny {
+      margin-bottom: 6rem !important;
+  }
   footer ul {
     gap: 0;
     flex-direction: column;
