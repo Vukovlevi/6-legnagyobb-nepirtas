@@ -86,7 +86,10 @@ main {
   font-size: 1.5rem;
 }
 .img {
-  width: 20vw;
+  width: clamp(20rem, 35vw, 900px);
+}
+.reverse {
+  flex-direction: row-reverse;
 }
 footer {
   display: flex;
