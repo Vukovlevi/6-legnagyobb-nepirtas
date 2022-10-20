@@ -15,6 +15,9 @@
 	"Pol Pot" befejezve
 2022.10.20 - Szabó-Vukov Levente:
 	főoldal elkészítése + dokumentáció
+2022.10.20 - Pál Marcell:
+	linkeket összegyűjtöttem
+	
 
 
 Források:
