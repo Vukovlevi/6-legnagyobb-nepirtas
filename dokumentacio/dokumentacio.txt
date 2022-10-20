@@ -11,7 +11,7 @@
 	"Hitler" oldal befejezve
 	"Kim Ir Szen" oldal elkezdve
 2022.10.13 - Pál Marcell:
-    "Idi Amin Dada" befejezve
+    	"Idi Amin Dada" befejezve
 	"Pol Pot" befejezve
 2022.10.20 - Szabó-Vukov Levente:
 	főoldal elkészítése + dokumentáció
