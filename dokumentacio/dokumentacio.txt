@@ -11,8 +11,8 @@
 	"Hitler" oldal befejezve
 	"Kim Ir Szen" oldal elkezdve
 2022.10.13 - Pál Marcell:
-    "Idi Amin Dada" majdnem befejezve
-	"Pol Pot" majdnem befejezve
+    "Idi Amin Dada" befejezve
+	"Pol Pot" befejezve
 
 Források:
 https://hu.wikipedia.org/wiki/Idi_Amin_Dada
