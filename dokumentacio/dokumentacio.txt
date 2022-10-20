@@ -12,4 +12,13 @@
 	"Kim Ir Szen" oldal elkezdve
 2022.10.13 - Pál Marcell:
     "Idi Amin Dada" majdnem befejezve
-	"Pol Pot" majdnem befejezve	
+	"Pol Pot" majdnem befejezve
+
+Források:
+https://hu.wikipedia.org/wiki/Idi_Amin_Dada
+https://hu.wikipedia.org/wiki/Adolf_Hitler
+https://hu.wikipedia.org/wiki/Mao_Ce-tung
+https://hu.wikipedia.org/wiki/Joszif_Visszarionovics_Szt%C3%A1lin
+https://hu.wikipedia.org/wiki/Pol_Pot
+https://hu.wikipedia.org/wiki/Kim_Ir_Szen
+https://hu.wikipedia.org/wiki/Holodomor	
