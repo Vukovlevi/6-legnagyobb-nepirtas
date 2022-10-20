@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Népirtások</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <header class="container-fluid justify-content-center">
+      <i class="fa-solid fa-bars nav-toggle mx-5 my-3"></i>
+      <nav>
+        <ul>
+          <li><a class="nav-link" href="./mao-ce-tung/index.html">Mao Ce-tung</a></li>
+          <li><a class="nav-link" href="./hitler/index.html">Hitler</a></li>
+          <li><a class="nav-link" href="./stalin/index.html">Sztálin</a></li>
+          <li><a class="nav-link" href="./kimirsen/index.html">Kim Ir Szen</a></li>
+          <li><a class="nav-link" href="./pol-pot/">Pol Pot</a></li>
+          <li><a class="nav-link" href="./Idi-Amin/">Idi Amin Dada</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container-fluid px-3">
+      <h1 class="fw-bold text-center">A 6 legnagyobb népirtás</h1>
+      <p class="w-75 mx-auto">
+        Azért választottuk ezt a témát, mert érdekesnek találjuk a történelmet. Annak pedig egy talán
+        kevésbé tárgyalt része a népirtások. Pedig az emberiség történelmében nagyon is jelen van,
+        főleg a XX. században. Szeretnénk bemutatni, hogy mekkora kegyetlenségre képesek az
+        emberek. És megmutatni, hogy bár azt hisszük ez már rég volt és elmúlt, párat szüleink,
+        nagyszüleink életében követtek el.
+      </p>
+      <table class="mx-auto my-3">
+          <tr>
+              <th>Diktátor</th>
+              <th>Ország</th>
+              <th>Uralma ideje</th>
+              <th>Áldozatok száma</th>
+          </tr>
+          <tr>
+              <td>Sztálin</td>
+              <td>Szovjetunió</td>
+              <td>1922-1953</td>
+              <td>kb. 23 millió fő</td>
+          </tr>
+          <tr>
+              <td>Mao Ce-tung</td>
+              <td>Kína</td>
+              <td>1945-1976</td>
+              <td>kb. 44-72 millió fő</td>
+          </tr>
+          <tr>
+              <td>Hitler</td>
+              <td>Németország</td>
+              <td>1933-1945</td>
+              <td>kb. 9-11 millió fő</td>
+          </tr>
+          <tr>
+              <td>Kim Ir Szen</td>
+              <td>Észak-korea</td>
+              <td>1948-1993</td>
+              <td>nem tudni</td>
+          </tr>
+          <tr>
+              <td>Pol Pot</td>
+              <td>Kambodzsa</td>
+              <td>1963-1981</td>
+              <td>kb. 1,7 millió fő</td>
+          </tr>
+          <tr>
+              <td>Idi Amin Dada</td>
+              <td>Uganda</td>
+              <td>1971-1979</td>
+              <td>100-500 ezer fő</td>
+          </tr>
+      </table>
+      <form class="mx-auto my-5">
+          <div class="email-container">
+            <label for="email">Email cím</label>
+            <input type="email" id="email" class="email" placeholder="Email cím" required>
+          </div>
+          <div class="opinion-container">
+            <label for="opinion">Vélemény</label>
+            <textarea id="opinion" class="opinion" placeholder="Vélemény"></textarea>
+          </div>
+          <div class="ratings">
+              <div>
+                <input type="radio" name="rating" id="1" class="value">
+                <label for="1">1</label>
+              </div>
+              <div>
+                <input type="radio" name="rating" id="2" class="value">
+                <label for="2">2</label>
+              </div>
+              <div>
+                <input type="radio" name="rating" id="3" class="value">
+                <label for="3">3</label>
+              </div>
+              <div>
+                <input type="radio" name="rating" id="4" class="value">
+                <label for="4">4</label>
+              </div>
+              <div>
+                <input type="radio" name="rating" id="5" class="value">
+                <label for="5">5</label>
+              </div>
+          </div>
+          <button type="submit" class="mb-5 mx-auto">Küldés</button>
+      </form>
+    </main>
+    <footer class="container-fluid justify-content-center align-items-center">
+      <ul>
+        <li>
+          <a class="text-light github-link"
+            href="https://github.com/Vukovlevi/6-legnagyobb-nepirtas"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i>GitHub repository</a
+          >
+        </li>
+        <li>Pál Marcell</li>
+        <li>Pap Adrián</li>
+        <li>Szabó-Vukov Levente</li>
+      </ul>
+    </footer>
+  </body>
+</html>
