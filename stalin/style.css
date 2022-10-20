@@ -2,6 +2,11 @@
     width: 80vw;
     z-index: -1;
 }
+.carousel-arrow {
+    color: black !important;
+    background-color: black !important;
+    opacity: 1 !important;
+}
 @media (max-width: 768px) {
     .carousel {
         display: none !important;
