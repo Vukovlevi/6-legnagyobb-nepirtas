@@ -3,6 +3,7 @@ th {
 }
 th, td {
     padding: 0.5rem 1rem;
+    word-wrap: break-word;
 }
 form {
     display: flex;
@@ -53,4 +54,13 @@ button:hover,
 button:focus {
     border-color: grey;
     color: grey;
+}
+
+@media (max-width: 650px) {
+    table.mx-auto {
+        margin-left: 0 !important;
+    }
+    th, td {
+        max-width: 25vw;
+    }
 }
