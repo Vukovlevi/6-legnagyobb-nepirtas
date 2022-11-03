@@ -27,6 +27,7 @@
 	módosítások a követelményekhez
 2022.10.27 - Pál Marcell:
 	módosítások a követelményekhez
+2022.11.03 - Teljesen befejeztük a weboldalt.
 	
 
 
